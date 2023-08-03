@@ -1,0 +1,147 @@
+/* &display=swap&subset=cyrillic-ext */
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('../fonts/FuturaDemiC.woff2') format('woff2'),
+        url('../fonts/FuturaDemiC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Geometria-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url('../fonts/FuturaMediumC.woff2') format('woff2'),
+        url('../fonts/FuturaMediumC.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Geometria-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    font-family: 'FuturaMediumC', sans-serif;
+    line-height: 1;
+}
+
+/* ------------------------------ */
+.title {
+    font-size: 50px;
+    color: rgba(165, 42, 42);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.list li{
+    color: aqua;
+}
+.list a{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.list span{
+    color: crimson;
+    font-family: 'Geometria';
+    font-style: italic;
+}
+.description p {
+    text-indent: 30px;
+}
+.description span{
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.description__indent {
+}
+.economy-israel {
+    color: chocolate;
+    font-size: 24px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: darkorange;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px violet;
+}
+.book-overview p{
+    text-indent: 25px;
+    color: green;
+    line-height: 1.5;
+}
+.authors p{
+     text-indent: 25px;
+    letter-spacing: 2px;
+    color: blue;
+}
+.impact p {
+    text-indent: 25px;
+    word-spacing: 10px;
+    color: crimson;
+}
+.see-also {
+    text-indent: 55px;
+}
